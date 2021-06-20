@@ -1,0 +1,5 @@
+pika
+flask
+flasgger
+flask_pymongo
+
