@@ -8,7 +8,7 @@ import pymongo
 logging.basicConfig(format='%(asctime)s %(message)s', level=logging.INFO)
 warnings.filterwarnings("ignore", category=DeprecationWarning) 
 
-client = pymongo.MongoClient("mongodb://rs1:27041/")
+client = pymongo.MongoClient("mongodb://rs3:27043/")
 modb = client['test']
 mocol = modb['col']
 
